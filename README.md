@@ -139,7 +139,7 @@ ml-assignment-2/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [YOUR_GITHUB_REPO_URL]
+git clone https://github.com/Preetikulkarni123/ml-assignment-2.git
 cd ml-assignment-2
 ```
 
@@ -244,14 +244,14 @@ Use `sample_test_data.csv` (automatically generated) to test the app.
 
 This application is deployed on **Streamlit Community Cloud**.
 
-**Live App URL:** [YOUR_STREAMLIT_APP_URL]
+**Live App URL:** https://2025aa05894-ml-assignment-2.streamlit.app
 
 ### Deployment Steps:
 1. Push code to GitHub repository (must be PUBLIC)
 2. Visit [https://streamlit.io/cloud](https://streamlit.io/cloud)
 3. Sign in with GitHub account
 4. Click "New App"
-5. Select repository: `YOUR_USERNAME/ml-assignment-2`
+5. Select repository: `PreetiKulkarni123/ml-assignment-2`
 6. Select branch: `main`
 7. Select main file: `app.py`
 8. Click "Deploy"
