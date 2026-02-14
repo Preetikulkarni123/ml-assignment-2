@@ -121,13 +121,11 @@ ml-assignment-2/
 │   ├── model_xgb.pkl              # XGBoost model
 │   └── scaler.pkl                 # StandardScaler for preprocessing
 │
-├── data/                          # Dataset files
-│   ├── heart_disease.csv          # Full dataset (297 rows)
-│   └── sample_test_data.csv       # Sample test data (20 rows)
-│
-└── results/                       # Generated results
-    ├── model_results.csv          # Performance metrics
-    └── model_observations.csv     # Model observations
+├── heart_disease.csv          # Full dataset (297 rows)
+└── sample_test_data.csv       # Sample test data (20 rows)
+│                     
+|── model_results.csv          # Performance metrics
+└── model_observations.csv     # Model observations
 ```
 
 ---
@@ -333,14 +331,14 @@ This application is deployed on **Streamlit Community Cloud**.
 
 ## Author
 
-**Name:** [YOUR NAME]  
-**Student ID:** [YOUR STUDENT ID]  
+**Name:** Preeti Kulkarni  
+**Student ID:** 2025AA05894
 **Course:** M.Tech (AIML/DSE)  
 **Institute:** BITS Pilani  
 **Assignment:** Machine Learning - Assignment 2  
-**Date:** February 2026  
-**Email:** [YOUR EMAIL]  
-**GitHub:** [YOUR GITHUB PROFILE]
+**Date:** 14 February 2026  
+**Email:** 2025aa05894@wilp.bits-pilani.ac.in
+**GitHub:** Preetikulkarni123
 
 ---
 
