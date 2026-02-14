@@ -1,0 +1,7 @@
+ML Model Name,Observation
+Logistic Regression,Good baseline performance with balanced precision-recall. Fast training time and interpretable coefficients. Works well for linearly separable data but may underperform on complex non-linear patterns.
+Decision Tree,Moderate performance with tendency to overfit on training data. Shows high variance and instability across different train-test splits. Easy to visualize and interpret but requires careful pruning.
+kNN,Performance highly dependent on choice of k value and distance metric. Sensitive to feature scaling (applied StandardScaler). Slow prediction time for large datasets as it requires distance calculation to all training points.
+Naive Bayes,"Fastest training and prediction time among all models. Assumes feature independence which may not hold for medical data. Despite simplistic assumptions, provides reasonable performance on this dataset."
+Random Forest,Strong and robust performance due to ensemble averaging of multiple decision trees. Effectively reduces overfitting compared to single decision tree. Provides feature importance scores which are valuable for medical diagnosis.
+XGBoost,Best overall performance using gradient boosting. Sequential learning approach allows model to correct previous errors. Handles missing values well and provides built-in regularization. Requires more computational resources but delivers superior accuracy.
