@@ -210,23 +210,6 @@ ml-assignment-2/
 
 ---
 
-## Challenges & Solutions
-
-1. **Challenge:** Class imbalance (53.9% vs 46.1%)
-   - **Solution:** Used stratified train-test split to maintain class distribution
-
-2. **Challenge:** Missing values in original dataset
-   - **Solution:** Removed rows with missing values (303 → 297 instances)
-
-3. **Challenge:** Different feature scales
-   - **Solution:** Applied StandardScaler to normalize all features
-
-4. **Challenge:** Decision Tree overfitting
-   - **Solution:** Limited max_depth to 10, but still showed poor generalization
-
-
-
-
 ## Author
 
 **Name:** Preeti Kulkarni  
@@ -240,48 +223,7 @@ ml-assignment-2/
 
 ---
 
-## License
 
-This project is created for educational purposes as part of BITS Pilani M.Tech coursework.
-
----
-
-## Acknowledgments
-
-- BITS Pilani Faculty for assignment guidance and support
-- UCI Machine Learning Repository for providing the Heart Disease dataset
-- Streamlit community for the excellent deployment platform
-- Scikit-learn and XGBoost developers for robust ML libraries
-
-
-
-### Model Hyperparameters Used
-
-1. **Logistic Regression**
-   - max_iter: 1000
-   - random_state: 42
-
-2. **Decision Tree**
-   - max_depth: 10
-   - random_state: 42
-
-3. **K-Nearest Neighbors**
-   - n_neighbors: 5
-
-4. **Naive Bayes**
-   - Type: GaussianNB (default parameters)
-
-5. **Random Forest**
-   - n_estimators: 100
-   - max_depth: 10
-   - random_state: 42
-
-6. **XGBoost**
-   - n_estimators: 100
-   - max_depth: 5
-   - learning_rate: 0.1
-   - random_state: 42
-   - eval_metric: 'logloss'
 
 ### Dependencies Version
 ```
