@@ -137,67 +137,7 @@ ml-assignment-2/
 - pip package manager
 - Git
 
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/Preetikulkarni123/ml-assignment-2.git
-cd ml-assignment-2
-```
 
-### Step 2: Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3: Train Models
-```bash
-python complete_solution.py
-```
-
-This will:
-- Load the Heart Disease dataset
-- Train all 6 classification models
-- Evaluate models on test set
-- Save trained models to `models/` folder
-- Generate performance metrics
-
-### Step 4: Run Streamlit App Locally
-```bash
-streamlit run app.py
-```
-
-The app will open in your browser at `http://localhost:8501`
-
----
-
-## Usage Instructions
-
-### Training Models
-
-The complete training pipeline is automated:
-
-```bash
-python complete_solution.py
-```
-
-**Output:**
-- Trains all 6 models
-- Saves models to `models/` folder
-- Generates `model_results.csv` with all metrics
-- Creates `sample_test_data.csv` for testing
-- Prints markdown tables for README
-
-### Using the Streamlit App
-
-1. **Upload Data:** Upload your test dataset (CSV format) in the "Data Upload" tab
-2. **Select Model:** Choose a model from the dropdown in "Model Prediction" tab
-3. **Enter Target Column:** Specify the name of your target variable (`target`)
-4. **Run Prediction:** Click the "Run Prediction & Evaluation" button
-5. **View Results:** See comprehensive metrics and confusion matrix in "Results" tab
-
-**Sample Test Data:**
-Use `sample_test_data.csv` (automatically generated) to test the app.
-
----
 
 ## Evaluation Metrics Explained
 
@@ -237,24 +177,6 @@ Use `sample_test_data.csv` (automatically generated) to test the app.
 - **Data Processing:** Pandas 2.0.3, NumPy 1.24.3
 - **Visualization:** Matplotlib 3.7.2, Seaborn 0.12.2
 - **Model Persistence:** Joblib 1.3.2
-
----
-
-## Deployment
-
-This application is deployed on **Streamlit Community Cloud**.
-
-**Live App URL:** https://2025aa05894-ml-assignment-2.streamlit.app
-
-### Deployment Steps:
-1. Push code to GitHub repository (must be PUBLIC)
-2. Visit [https://streamlit.io/cloud](https://streamlit.io/cloud)
-3. Sign in with GitHub account
-4. Click "New App"
-5. Select repository: `PreetiKulkarni123/ml-assignment-2`
-6. Select branch: `main`
-7. Select main file: `app.py`
-8. Click "Deploy"
 
 ---
 
@@ -302,32 +224,8 @@ This application is deployed on **Streamlit Community Cloud**.
 4. **Challenge:** Decision Tree overfitting
    - **Solution:** Limited max_depth to 10, but still showed poor generalization
 
----
 
-## Future Improvements
 
-- [ ] Implement hyperparameter tuning using GridSearchCV/RandomSearchCV
-- [ ] Add cross-validation (k-fold) for more robust evaluation
-- [ ] Include ROC curves and Precision-Recall curves visualization
-- [ ] Add SHAP values for model explainability
-- [ ] Implement feature importance visualization
-- [ ] Add ensemble voting classifier combining top models
-- [ ] Handle class imbalance with SMOTE or class weights
-- [ ] Add confidence intervals for predictions
-- [ ] Deploy with CI/CD pipeline
-- [ ] Add user authentication for app
-
----
-
-## References
-
-1. Scikit-learn Documentation: https://scikit-learn.org/stable/
-2. XGBoost Documentation: https://xgboost.readthedocs.io/
-3. Streamlit Documentation: https://docs.streamlit.io/
-4. UCI Heart Disease Dataset: https://archive.ics.uci.edu/ml/datasets/heart+Disease
-5. Matthews Correlation Coefficient: https://en.wikipedia.org/wiki/Matthews_correlation_coefficient
-
----
 
 ## Author
 
@@ -355,22 +253,7 @@ This project is created for educational purposes as part of BITS Pilani M.Tech c
 - Streamlit community for the excellent deployment platform
 - Scikit-learn and XGBoost developers for robust ML libraries
 
----
 
-## Contact
-
-For any queries regarding this project, please contact:
-- **Email:** [YOUR_EMAIL]
-- **GitHub Issues:** [YOUR_GITHUB_REPO]/issues
-- **LinkedIn:** [YOUR_LINKEDIN_PROFILE]
-
----
-
-**Made with ❤️ for BITS Pilani ML Assignment 2**
-
----
-
-## Appendix
 
 ### Model Hyperparameters Used
 
